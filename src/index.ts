@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { SentariPipeline } from './pipeline';
+import { SentariPipeline } from './pipeline_master';
 import { MockDataGenerator } from './mockData';
 
 const app = express();
@@ -15,50 +15,50 @@ const pipeline = new SentariPipeline();
 
 // API Routes
 app.post('/api/process', async (req, res) => {
-  try {
-    const { transcript, mode } = req.body;
-    
-    if (!transcript) {
-      return res.status(400).json({ error: 'Transcript is required' });
-    }
+    try {
+        const { transcript, mode } = req.body;
 
-    // Load mock data for hundred mode
-    if (mode === 'hundred' && pipeline.getEntryCount() === 0) {
-      const mockEntries = MockDataGenerator.generateMockEntries(99);
-      const mockProfile = MockDataGenerator.generateMockProfile(mockEntries);
-      pipeline.loadMockEntries(mockEntries);
-      pipeline.setProfile(mockProfile);
-    }
+        if (!transcript) {
+            return res.status(400).json({ error: 'Transcript is required' });
+        }
 
-    const result = await pipeline.processDiaryEntry(transcript);
-    res.json(result);
-  } catch (error) {
-    console.error('Pipeline error:', error);
-    res.status(500).json({ error: 'Pipeline processing failed' });
-  }
+        // Load mock data for hundred mode
+        if (mode === 'hundred' && pipeline.getEntryCount() === 0) {
+            const mockEntries = MockDataGenerator.generateMockEntries(99);
+            const mockProfile = MockDataGenerator.generateMockProfile(mockEntries);
+            pipeline.loadMockEntries(mockEntries);
+            pipeline.setProfile(mockProfile);
+        }
+
+        const result = await pipeline.processDiaryEntry(transcript);
+        res.json(result);
+    } catch (error) {
+        console.error('Pipeline error:', error);
+        res.status(500).json({ error: 'Pipeline processing failed' });
+    }
 });
 
 app.get('/api/profile', (req, res) => {
-  const profile = pipeline.getProfile();
-  const entryCount = pipeline.getEntryCount();
-  
-  res.json({
-    profile,
-    entryCount,
-    isNewUser: entryCount === 0
-  });
+    const profile = pipeline.getProfile();
+    const entryCount = pipeline.getEntryCount();
+
+    res.json({
+        profile,
+        entryCount,
+        isNewUser: entryCount === 0
+    });
 });
 
 app.post('/api/reset', (req, res) => {
-  // Reset pipeline for testing
-  const newPipeline = new SentariPipeline();
-  Object.assign(pipeline, newPipeline);
-  res.json({ message: 'Pipeline reset successfully' });
+    // Reset pipeline for testing
+    const newPipeline = new SentariPipeline();
+    Object.assign(pipeline, newPipeline);
+    res.json({ message: 'Pipeline reset successfully' });
 });
 
 // Serve the HTML UI
 app.get('/', (req, res) => {
-  res.send(`
+    res.send(`
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -353,12 +353,12 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`\n🧩 Sentari Pipeline Server running at http://localhost:${port}`);
-  console.log(`\nAvailable endpoints:`);
-  console.log(`- Web UI: http://localhost:${port}`);
-  console.log(`- API: POST /api/process`);
-  console.log(`- Profile: GET /api/profile`);
-  console.log(`\nTo run simulations:`);
-  console.log(`- npm run simulate:first`);
-  console.log(`- npm run simulate:hundred\n`);
+    console.log(`\n🧩 Sentari Pipeline Server running at http://localhost:${port}`);
+    console.log(`\nAvailable endpoints:`);
+    console.log(`- Web UI: http://localhost:${port}`);
+    console.log(`- API: POST /api/process`);
+    console.log(`- Profile: GET /api/profile`);
+    console.log(`\nTo run simulations:`);
+    console.log(`- npm run simulate:first`);
+    console.log(`- npm run simulate:hundred\n`);
 }); 
