@@ -111,6 +111,24 @@ app.get('/', (req, res) => {
             outline: none; 
             border-color: #667eea; 
         }
+        .mode-selector { 
+            display: flex; 
+            gap: 15px; 
+            margin-bottom: 20px;
+        }
+        .mode-option { 
+            flex: 1; 
+            padding: 15px; 
+            border: 2px solid #e1e5e9; 
+            border-radius: 8px; 
+            text-align: center; 
+            cursor: pointer; 
+            transition: all 0.3s;
+        }
+        .mode-option.active { 
+            border-color: #667eea; 
+            background: #f8f9ff; 
+        }
         .btn { 
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white; 
@@ -187,7 +205,19 @@ app.get('/', (req, res) => {
         </div>
         
         <div class="content">
-        
+            <div class="form-group">
+                <label>Simulation Mode</label>
+                <div class="mode-selector">
+                    <div class="mode-option active" data-mode="first">
+                        <strong>First Entry</strong><br>
+                        <small>New user, no prior data</small>
+                    </div>
+                    <div class="mode-option" data-mode="hundred">
+                        <strong>100th Entry</strong><br>
+                        <small>Established user with 99 entries</small>
+                    </div>
+                </div>
+            </div>
             
             <div class="form-group">
                 <label for="transcript">Diary Transcript</label>
@@ -202,10 +232,22 @@ app.get('/', (req, res) => {
             </button>
             
             <div id="result" style="display: none;"></div>
+            <div id="logs" class="logs" style="display: none;"></div>
         </div>
     </div>
 
     <script>
+        let selectedMode = 'first';
+        
+        // Mode selection
+        document.querySelectorAll('.mode-option').forEach(option => {
+            option.addEventListener('click', function() {
+                document.querySelectorAll('.mode-option').forEach(o => o.classList.remove('active'));
+                this.classList.add('active');
+                selectedMode = this.dataset.mode;
+            });
+        });
+        
         async function processTranscript() {
             const transcript = document.getElementById('transcript').value.trim();
             const resultDiv = document.getElementById('result');
@@ -236,7 +278,7 @@ app.get('/', (req, res) => {
                 const response = await fetch('/api/process', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ transcript, mode: "UI" }) // or "hundred" if you want default
+                    body: JSON.stringify({ transcript, mode: selectedMode })
                 });
                 
                 console.log = originalLog;
@@ -304,6 +346,11 @@ app.get('/', (req, res) => {
                     </details>
                 </div>
             \`;
+            const logsDiv = document.getElementById('logs');
+            logsDiv.style.display = 'block';
+            logsDiv.innerHTML = result.logs
+                .map(line => '<div>' + line + '</div>')
+                .join('');
         }
     </script>
 </body>
