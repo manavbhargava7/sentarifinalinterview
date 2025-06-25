@@ -1,10 +1,11 @@
-import { SentariPipeline } from './pipeline_master';
+import { SentariPipeline } from './pipeline';
 import { MockDataGenerator } from './mockData';
 
 async function runSimulation(mode: 'first' | 'hundred') {
   console.log(`\n=== SENTARI SIMULATION: ${mode.toUpperCase()} ENTRY ===\n`);
 
-  const pipeline = new SentariPipeline();
+  const userId = mode === 'first' ? 'new_user' : 'established_user';
+  const pipeline = new SentariPipeline(userId, './data/profiles');
   const testTranscript = "I keep checking Slack even when I'm exhausted. I know I need rest, but I'm scared I'll miss something important.";
 
   if (mode === 'hundred') {
@@ -13,8 +14,10 @@ async function runSimulation(mode: 'first' | 'hundred') {
     const mockEntries = MockDataGenerator.generateMockEntries(99);
     const mockProfile = MockDataGenerator.generateMockProfile(mockEntries);
 
+    // Save the mock profile using the profile system
+    await pipeline.saveMockProfile(mockProfile);
+    
     pipeline.loadMockEntries(mockEntries);
-    pipeline.setProfile(mockProfile);
 
     console.log(`Loaded ${mockEntries.length} previous entries.`);
     console.log(`Current profile - Dominant vibe: ${mockProfile.dominant_vibe}, Top themes: ${mockProfile.top_themes.slice(0, 3).join(', ')}\n`);

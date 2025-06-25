@@ -1,0 +1,43 @@
+{
+  "top_themes": [
+    "intern management",
+    "startup culture",
+    "work-life balance",
+    "technology"
+  ],
+  "theme_count": {
+    "intern management": 44,
+    "startup culture": 32,
+    "productivity": 16,
+    "work-life balance": 24,
+    "team dynamics": 21,
+    "technology": 24,
+    "leadership": 21,
+    "personal growth": 19
+  },
+  "dominant_vibe": "driven",
+  "vibe_count": {
+    "overwhelmed": 18,
+    "exhausted": 21,
+    "driven": 35,
+    "anxious": 16,
+    "confident": 23,
+    "excited": 22,
+    "curious": 13
+  },
+  "bucket_count": {
+    "Goal": 40,
+    "Thought": 13,
+    "Hobby": 14,
+    "Value": 33
+  },
+  "trait_pool": [
+    "builder",
+    "vigilant",
+    "empathetic",
+    "organiser",
+    "mentor",
+    "conscientious"
+  ],
+  "last_theme": "work-life balance"
+}

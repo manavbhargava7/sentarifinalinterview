@@ -7,11 +7,25 @@ import {
   CarryInResult, 
   ContrastResult 
 } from './types';
+import { ProfileFetcher, ProfileUpdater, ContrastChecker } from './profile';
 
 export class SentariPipeline {
   private entries: Map<string, DiaryEntry> = new Map();
   private profile: UserProfile | null = null;
   private startTime: number = 0;
+  
+  // Profile Team Components
+  private profileFetcher: ProfileFetcher;
+  private profileUpdater: ProfileUpdater;
+  private contrastChecker: ContrastChecker;
+  private userId: string = 'default_user';
+
+  constructor(userId: string = 'default_user', profilesDir: string = './data/profiles') {
+    this.userId = userId;
+    this.profileFetcher = new ProfileFetcher(profilesDir);
+    this.profileUpdater = new ProfileUpdater();
+    this.contrastChecker = new ContrastChecker();
+  }
 
   // Step 01: RAW_TEXT_IN
   step01_rawTextIn(transcript: string): string {
@@ -37,20 +51,9 @@ export class SentariPipeline {
     return recent;
   }
 
-  // Step 04: FETCH_PROFILE
-  step04_fetchProfile(): UserProfile {
-    if (!this.profile) {
-      this.profile = {
-        top_themes: [],
-        theme_count: {},
-        dominant_vibe: "",
-        vibe_count: {},
-        bucket_count: {},
-        trait_pool: [],
-        last_theme: ""
-      };
-    }
-    console.log(`[FETCH_PROFILE] input="" | output="${this.profile.dominant_vibe || 'new_user'}" | note="Profile loaded or initialized"`);
+  // Step 04: FETCH_PROFILE (Using ProfileFetcher)
+  async step04_fetchProfile(): Promise<UserProfile> {
+    this.profile = await this.profileFetcher.fetchProfile(this.userId);
     return this.profile;
   }
 
@@ -187,69 +190,17 @@ export class SentariPipeline {
     };
   }
 
-  // Step 08: CONTRAST_CHECK
+  // Step 08: CONTRAST_CHECK (Using ContrastChecker)
   step08_contrastCheck(current_vibes: string[], profile: UserProfile): ContrastResult {
-    const previous_dominant = profile.dominant_vibe || "";
-    const current_dominant = current_vibes[0] || "neutral";
-    
-    // Define opposing emotions
-    const opposites: Record<string, string[]> = {
-      'excited': ['exhausted', 'anxious', 'overwhelmed'],
-      'driven': ['exhausted', 'overwhelmed'],
-      'anxious': ['excited', 'curious'],
-      'exhausted': ['excited', 'driven']
-    };
-
-    const emotion_flip = previous_dominant !== "" && 
-                        opposites[previous_dominant]?.includes(current_dominant) || false;
-
-    console.log(`[CONTRAST_CHECK] input="prev:${previous_dominant}, curr:${current_dominant}" | output="${emotion_flip}" | note="Emotion contrast detected: ${emotion_flip}"`);
-    
-    return {
-      emotion_flip,
-      previous_dominant,
-      current_dominant
-    };
+    return this.contrastChecker.checkContrast(current_vibes, profile);
   }
 
-  // Step 09: PROFILE_UPDATE
-  step09_profileUpdate(profile: UserProfile, parsed: ParsedEntry): UserProfile {
-    const updated_profile = { ...profile };
-
-    // Update theme counts
-    parsed.theme.forEach(theme => {
-      updated_profile.theme_count[theme] = (updated_profile.theme_count[theme] || 0) + 1;
-    });
-
-    // Update vibe counts
-    parsed.vibe.forEach(vibe => {
-      updated_profile.vibe_count[vibe] = (updated_profile.vibe_count[vibe] || 0) + 1;
-    });
-
-    // Update bucket counts
-    parsed.bucket.forEach(bucket => {
-      updated_profile.bucket_count[bucket] = (updated_profile.bucket_count[bucket] || 0) + 1;
-    });
-
-    // Update trait pool
-    parsed.persona_trait.forEach(trait => {
-      if (!updated_profile.trait_pool.includes(trait)) {
-        updated_profile.trait_pool.push(trait);
-      }
-    });
-
-    // Recalculate top themes and dominant vibe
-    updated_profile.top_themes = Object.entries(updated_profile.theme_count)
-      .sort(([,a], [,b]) => b - a)
-      .slice(0, 4)
-      .map(([theme]) => theme);
-
-    updated_profile.dominant_vibe = Object.entries(updated_profile.vibe_count)
-      .sort(([,a], [,b]) => b - a)[0]?.[0] || "";
-
-    updated_profile.last_theme = parsed.theme[0] || "";
-
-    console.log(`[PROFILE_UPDATE] input="themes:${parsed.theme.join(',')}" | output="dominant:${updated_profile.dominant_vibe}" | note="Profile counters updated"`);
+  // Step 09: PROFILE_UPDATE (Using ProfileUpdater)
+  async step09_profileUpdate(profile: UserProfile, parsed: ParsedEntry): Promise<UserProfile> {
+    const updated_profile = this.profileUpdater.updateProfile(profile, parsed);
+    
+    // Save the updated profile
+    await this.profileFetcher.saveProfile(this.userId, updated_profile);
     
     this.profile = updated_profile;
     return updated_profile;
@@ -346,12 +297,12 @@ export class SentariPipeline {
     const raw_text = this.step01_rawTextIn(transcript);
     const embedding = this.step02_embedding(raw_text);
     const recent = this.step03_fetchRecent();
-    const profile = this.step04_fetchProfile();
+    const profile = await this.step04_fetchProfile();
     const meta_data = this.step05_metaExtract(raw_text);
     const parsed = this.step06_parseEntry(raw_text);
     const carry_result = this.step07_carryIn(embedding, recent, parsed.theme);
     const contrast_result = this.step08_contrastCheck(parsed.vibe, profile);
-    const updated_profile = this.step09_profileUpdate(profile, parsed);
+    const updated_profile = await this.step09_profileUpdate(profile, parsed);
     const entryId = this.step10_saveEntry(raw_text, embedding, parsed, meta_data);
     const response_text = this.step11_gptReply(parsed, updated_profile, carry_result.carry_in, contrast_result.emotion_flip);
     const output = this.step12_publish(entryId, response_text, carry_result.carry_in, contrast_result.emotion_flip, updated_profile);
@@ -394,6 +345,11 @@ export class SentariPipeline {
   }
 
   public setProfile(profile: UserProfile): void {
+    this.profile = profile;
+  }
+
+  public async saveMockProfile(profile: UserProfile): Promise<void> {
+    await this.profileFetcher.saveProfile(this.userId, profile);
     this.profile = profile;
   }
 } 

@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { SentariPipeline } from './pipeline_master';
+import { SentariPipeline } from './pipeline';
 import { MockDataGenerator } from './mockData';
 
 const app = express();
@@ -10,8 +10,8 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
 
-// Global pipeline instance
-const pipeline = new SentariPipeline();
+// Global pipeline instance with user ID
+const pipeline = new SentariPipeline('web_user', './data/profiles');
 
 // API Routes
 app.post('/api/process', async (req, res) => {
@@ -51,7 +51,7 @@ app.get('/api/profile', (req, res) => {
 
 app.post('/api/reset', (req, res) => {
     // Reset pipeline for testing
-    const newPipeline = new SentariPipeline();
+    const newPipeline = new SentariPipeline('web_user', './data/profiles');
     Object.assign(pipeline, newPipeline);
     res.json({ message: 'Pipeline reset successfully' });
 });

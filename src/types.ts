@@ -54,4 +54,7 @@ export interface ContrastResult {
   emotion_flip: boolean;
   previous_dominant: string;
   current_dominant: string;
+  contrast_type?: string | null;
+  intensity_shift?: 'high-to-low' | 'low-to-high' | 'none';
+  pattern_disruption?: boolean;
 } 

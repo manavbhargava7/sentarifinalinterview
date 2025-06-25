@@ -1,0 +1,23 @@
+{
+  "top_themes": [
+    "work-life balance"
+  ],
+  "theme_count": {
+    "work-life balance": 2
+  },
+  "dominant_vibe": "anxious",
+  "vibe_count": {
+    "anxious": 2,
+    "exhausted": 2
+  },
+  "bucket_count": {
+    "Goal": 0,
+    "Thought": 0,
+    "Hobby": 0,
+    "Value": 2
+  },
+  "trait_pool": [
+    "conscientious"
+  ],
+  "last_theme": "work-life balance"
+}

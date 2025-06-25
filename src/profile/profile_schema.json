@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "User Profile Schema",
+  "description": "Schema for long-term user profile tracking across diary entries",
+  "type": "object",
+  "properties": {
+    "top_themes": {
+      "type": "array",
+      "description": "Top 4 most frequent themes based on counts",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 4
+    },
+    "theme_count": {
+      "type": "object",
+      "description": "Count of each theme mentioned across all entries",
+      "patternProperties": {
+        "^.*$": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "dominant_vibe": {
+      "type": "string",
+      "description": "Most frequent emotional vibe based on counts",
+      "enum": ["driven", "curious", "overwhelmed", "excited", "anxious", "exhausted", "confident", "neutral", ""]
+    },
+    "vibe_count": {
+      "type": "object",
+      "description": "Count of each emotional vibe across all entries",
+      "patternProperties": {
+        "^.*$": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "bucket_count": {
+      "type": "object",
+      "description": "Count of each entry type (Goal, Thought, Hobby, Value)",
+      "patternProperties": {
+        "^(Goal|Thought|Hobby|Value)$": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "trait_pool": {
+      "type": "array",
+      "description": "Unique collection of persona traits observed",
+      "items": {
+        "type": "string",
+        "enum": ["organiser", "builder", "mentor", "conscientious", "vigilant", "empathetic", "reflective"]
+      },
+      "uniqueItems": true
+    },
+    "last_theme": {
+      "type": "string",
+      "description": "Most recent theme from the latest entry"
+    }
+  },
+  "required": ["top_themes", "theme_count", "dominant_vibe", "vibe_count", "bucket_count", "trait_pool", "last_theme"],
+  "additionalProperties": false,
+  "examples": [
+    {
+      "top_themes": ["intern management", "startup culture", "productivity", "work-life balance"],
+      "theme_count": {
+        "intern management": 35,
+        "productivity": 22,
+        "startup culture": 18,
+        "work-life balance": 12
+      },
+      "dominant_vibe": "driven",
+      "vibe_count": {
+        "driven": 41,
+        "curious": 19,
+        "overwhelmed": 14,
+        "excited": 9
+      },
+      "bucket_count": {
+        "Goal": 48,
+        "Thought": 27,
+        "Hobby": 15,
+        "Value": 10
+      },
+      "trait_pool": ["organiser", "builder", "mentor"],
+      "last_theme": "productivity"
+    }
+  ]
+} 
