@@ -31,10 +31,10 @@ app.post('/api/process', async (req, res) => {
     }
 
     const result = await pipeline.processDiaryEntry(transcript);
-    res.json(result);
+    return res.json(result);
   } catch (error) {
     console.error('Pipeline error:', error);
-    res.status(500).json({ error: 'Pipeline processing failed' });
+    return res.status(500).json({ error: 'Pipeline processing failed' });
   }
 });
 
