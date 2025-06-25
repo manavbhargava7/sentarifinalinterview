@@ -1,6 +1,84 @@
 import { ParsedEntry } from '../types';
+import { Ollama } from 'ollama';
 
-export function step06_parseEntry(raw_text: string): ParsedEntry {
+// Initialize Ollama client
+const ollama = new Ollama({
+    host: 'http://localhost:11434' // Default Ollama host
+});
+
+export async function step06_parseEntry(raw_text: string): Promise<ParsedEntry> {
+    try {
+        // Create a comprehensive prompt for Phi model
+        const prompt = `Analyze this diary entry: "${raw_text}"
+
+Extract the following information and return ONLY a valid JSON object:
+
+{
+  "theme": ["extract the most relevant themes from the text"],
+  "vibe": ["extract the most relevant emotions from the text"],
+  "intent": "what the person is trying to achieve or express",
+  "subtext": "hidden meaning or concerns",
+  "persona_trait": ["personality traits shown"],
+  "bucket": ["Thought/Goal/Hobby/Value"]
+}
+
+Choose only the most relevant theme(s), vibe(s), trait(s), and bucket(s) for the input. Do not list all possible options.
+
+Bucket Classification Rules:
+- Hobby: Personal activities, food, entertainment, leisure
+- Goal: Future plans, learning, achievements, aspirations
+- Thought: Current feelings, reflections, observations
+- Value: Beliefs, principles, important decisions
+
+Examples:
+- "I ate noodles for dinner and was happy" → theme: ["personal life", "food"], vibe: ["happy"], intent: "enjoy food", bucket: ["Hobby"]
+- "I'm stressed about work deadlines" → theme: ["productivity"], vibe: ["stressed"], intent: "manage stress", bucket: ["Thought"]
+- "I want to learn coding" → theme: ["personal growth"], vibe: ["excited"], intent: "learn new skill", bucket: ["Goal"]
+
+Analyze the text and return JSON:`;
+
+        // Call Ollama Phi model
+        const response = await ollama.generate({
+            model: 'phi',
+            prompt: prompt,
+            options: {
+                temperature: 0.1,
+                top_p: 0.9,
+                num_predict: 300
+            }
+        });
+
+        // Extract JSON from response
+        const jsonMatch = response.response.match(/\{[\s\S]*\}/);
+        if (!jsonMatch) {
+            throw new Error('No JSON found in response');
+        }
+
+        const parsed = JSON.parse(jsonMatch[0]) as ParsedEntry;
+
+        // Validate and ensure required fields
+        const validated: ParsedEntry = {
+            theme: Array.isArray(parsed.theme) && parsed.theme.length > 0 ? parsed.theme : ["general"],
+            vibe: Array.isArray(parsed.vibe) && parsed.vibe.length > 0 ? parsed.vibe : ["neutral"],
+            intent: typeof parsed.intent === 'string' && parsed.intent.length > 0 ? parsed.intent : "Express thoughts and feelings",
+            subtext: typeof parsed.subtext === 'string' && parsed.subtext.length > 0 ? parsed.subtext : "Surface-level expression",
+            persona_trait: Array.isArray(parsed.persona_trait) && parsed.persona_trait.length > 0 ? parsed.persona_trait : ["reflective"],
+            bucket: Array.isArray(parsed.bucket) && parsed.bucket.length > 0 ? parsed.bucket : ["Thought"]
+        };
+
+        console.log(`[PARSE_ENTRY] input="${raw_text.substring(0, 30)}..." | output="themes:${validated.theme.join(',')}, vibes:${validated.vibe.join(',')}" | note="[OLLAMA PHI] AI-powered extraction"`);
+        return validated;
+
+    } catch (error) {
+        console.warn(`[PARSE_ENTRY] Ollama failed, falling back to rule-based: ${error}`);
+        
+        // Fallback to rule-based extraction
+        return fallbackRuleBasedExtraction(raw_text);
+    }
+}
+
+// Fallback rule-based extraction (original implementation)
+function fallbackRuleBasedExtraction(raw_text: string): ParsedEntry {
     const text_lower = raw_text.toLowerCase();
 
     // Theme extraction (nouns, topics)
@@ -77,6 +155,6 @@ export function step06_parseEntry(raw_text: string): ParsedEntry {
         bucket
     };
 
-    console.log(`[PARSE_ENTRY] input="${raw_text.substring(0, 30)}..." | output="themes:${parsed.theme.join(',')}, vibes:${parsed.vibe.join(',')}" | note="[MOCK] Rule-based extraction"`);
+    console.log(`[PARSE_ENTRY] input="${raw_text.substring(0, 30)}..." | output="themes:${parsed.theme.join(',')}, vibes:${parsed.vibe.join(',')}" | note="[FALLBACK] Rule-based extraction"`);
     return parsed;
 } 
