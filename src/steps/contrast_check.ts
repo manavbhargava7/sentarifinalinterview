@@ -6,12 +6,19 @@ export function step08_contrastCheck(current_vibes: string[], profile: UserProfi
 
     // Define opposing emotions
     const opposites: Record<string, string[]> = {
-        'excited': ['exhausted', 'anxious', 'overwhelmed'],
-        'driven': ['exhausted', 'overwhelmed'],
-        'anxious': ['excited', 'curious'],
-        'exhausted': ['excited', 'driven'],
-        'curious': ['anxious', 'overwhelmed'],
-        'overwhelmed': ['excited', 'curious']
+        'excited': ['exhausted', 'anxious', 'overwhelmed', 'bored'],
+        'driven': ['exhausted', 'overwhelmed', 'apathetic'],
+        'anxious': ['excited', 'curious', 'confident', 'relaxed'],
+        'exhausted': ['excited', 'driven', 'energetic'],
+        'curious': ['anxious', 'bored', 'disinterested'],
+        'overwhelmed': ['excited', 'driven', 'calm', 'confident'],
+        'confident': ['anxious', 'overwhelmed', 'insecure'],
+        'calm': ['anxious', 'overwhelmed', 'agitated'],
+        'apathetic': ['excited', 'driven', 'energetic', 'curious'],
+        'bored': ['excited', 'driven', 'energetic', 'curious'],
+        'disinterested': ['excited', 'driven', 'energetic', 'curious'],
+        'insecure': ['excited', 'driven', 'energetic', 'curious'],
+        'agitated': ['excited', 'driven', 'energetic', 'curious']
     };
 
     const emotion_flip = opposites[previous_dominant]?.includes(current_dominant) || false;
