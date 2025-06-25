@@ -10,7 +10,7 @@ import {
 
 export class SentariPipeline {
   private entries: Map<string, DiaryEntry> = new Map();
-  private profile: UserProfile | null = null;
+  private profile: UserProfile | null = null; //this is where the current user profile is stored (all locally)
   private startTime: number = 0;
 
   // Step 01: RAW_TEXT_IN
