@@ -42,12 +42,12 @@ Step 9 -> Simply updates the profile with all information in the current Profile
 ##Contrast Check Implementation:
 For emotion flip, I utlized NLP. I weighed the accuracy, speed, and computational expense of each of each approach and created a table:
 
-Approach	                | Speed	Accuracy |	Memory
-_____________________________________________________
-Full Transformer Ensemble	| 500-2000ms	   | 95%
-Single Transformer	      | 100-300ms	     | 85%	
-Hybrid (Preferred)	      | 50-100ms	     | 80%	
-Rule-based Only	          | 1-5ms	         | 60%
+Approach	                | Speed          |	Accuracy (Estimated) | Memory Usage
+__________________________________________________________________________________ 
+Full Transformer Ensemble	| 500-2000ms	   | 95%                   |  High
+Single Transformer	      | 100-300ms	     | 85%	                 |  Medium
+Hybrid (Preferred)	      | 50-100ms	     | 80%	                 |  Low
+Rule-based Only	          | 1-5ms	         | 60%                   |  Minimal
 
 Chose the Hybrid approach
 - Still includes basic rule-based emotion flip detections
