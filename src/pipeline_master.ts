@@ -55,7 +55,7 @@ export class SentariPipeline {
         const carry_in_result = step07_carryIn(embedding, recent_entries, parsed.theme);
 
         // Step 08: CONTRAST_CHECK
-        const contrast_result = step08_contrastCheck(parsed.vibe, current_profile);
+        const contrast_result = await step08_contrastCheck(parsed.vibe, current_profile, raw_text);
 
         // Step 09: PROFILE_UPDATE
         const updated_profile = step09_profileUpdate(current_profile, parsed);
