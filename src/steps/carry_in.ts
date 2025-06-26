@@ -1,38 +1,60 @@
-import { DiaryEntry, CarryInResult } from '../types';
+/**
+ * Step 07: CARRY_IN DETECTION MODULE
+ * 
+ * This module computes whether the current diary entry "carries in"
+ * previous themes or emotional content from recent diary entries.
+ * 
+ * Logic:
+ * - If no recent entries: carry_in = false
+ * - If any recent entry shares theme(s) OR has cosine similarity > 0.86 → carry_in = true
+ * 
+ * This is a utility used by pipeline.ts → step07_carryIn()
+ * 
+ * Dependencies: 
+ * - cosineSimilarity() from utils/math
+ * - Embedding should already be computed before calling
+ */
 
-export function step07_carryIn(
-    current_embedding: number[],
-    recent_entries: DiaryEntry[],
-    current_themes: string[]
-): CarryInResult {
-    if (recent_entries.length === 0) {
-        console.log(`[CARRY_IN] input="no_recent" | output="false" | note="No recent entries to compare"`);
-        return { carry_in: false, similarity_score: 0, matching_themes: [] };
-    }
+import { cosineSimilarity } from '../utils/math'; // you must ensure this util exists or define inline
+import { DiaryEntry } from '../types';
 
-    // Check theme overlap
-    const recent_themes = recent_entries.flatMap(e => e.parsed.theme);
-    const matching_themes = current_themes.filter(theme => recent_themes.includes(theme));
-
-    // Mock cosine similarity calculation
-    const latest_entry = recent_entries[0];
-    const cosine_sim = mockCosineSimilarity(current_embedding, latest_entry.embedding);
-
-    const carry_in = matching_themes.length > 0 || cosine_sim > 0.86;
-
-    console.log(`[CARRY_IN] input="themes:${current_themes.join(',')}, sim:${cosine_sim.toFixed(3)}" | output="${carry_in}" | note="Theme overlap: ${matching_themes.length}, cosine: ${cosine_sim.toFixed(3)}"`);
-
-    return {
-        carry_in,
-        similarity_score: cosine_sim,
-        matching_themes
-    };
+export interface CarryInResult {
+  carry_in: boolean;
+  similarity_score: number;
+  matching_themes: string[];
 }
 
-function mockCosineSimilarity(vec1: number[], vec2: number[]): number {
-    // Mock cosine similarity calculation
-    const dot_product = vec1.slice(0, 10).reduce((sum, val, i) => sum + val * vec2[i], 0);
-    const mag1 = Math.sqrt(vec1.slice(0, 10).reduce((sum, val) => sum + val * val, 0));
-    const mag2 = Math.sqrt(vec2.slice(0, 10).reduce((sum, val) => sum + val * val, 0));
-    return Math.abs(dot_product / (mag1 * mag2));
-} 
+export function detectCarryIn(
+  currentEmbedding: number[],
+  currentThemes: string[],
+  recentEntries: DiaryEntry[],
+  similarityThreshold: number = 0.86
+): CarryInResult {
+  if (recentEntries.length === 0) {
+    return {
+      carry_in: false,
+      similarity_score: 0,
+      matching_themes: []
+    };
+  }
+
+  // Extract all themes from recent entries
+  const recentThemes = recentEntries.flatMap(entry => entry.parsed?.theme || []);
+  const matchingThemes = currentThemes.filter(theme => recentThemes.includes(theme));
+
+  // Compare embedding with all recent entries to find max similarity
+  let maxSim = 0;
+  for (const entry of recentEntries) {
+    const prevVec = entry.embedding || [];
+    const sim = cosineSimilarity(currentEmbedding, prevVec);
+    if (sim > maxSim) maxSim = sim;
+  }
+
+  const carry_in = matchingThemes.length > 0 || maxSim >= similarityThreshold;
+
+  return {
+    carry_in,
+    similarity_score: Math.round(maxSim * 1000) / 1000,
+    matching_themes: matchingThemes
+  };
+}
