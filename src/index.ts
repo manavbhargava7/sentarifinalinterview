@@ -232,7 +232,6 @@ app.get('/', (req, res) => {
             </button>
             
             <div id="result" style="display: none;"></div>
-            <div id="logs" class="logs" style="display: none;"></div>
         </div>
     </div>
 
@@ -346,11 +345,6 @@ app.get('/', (req, res) => {
                     </details>
                 </div>
             \`;
-            const logsDiv = document.getElementById('logs');
-            logsDiv.style.display = 'block';
-            logsDiv.innerHTML = result.logs
-                .map(line => '<div>' + line + '</div>')
-                .join('');
         }
     </script>
 </body>
