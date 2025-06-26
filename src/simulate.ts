@@ -22,11 +22,11 @@ async function runSimulation(mode: 'first' | 'hundred') {
 
   // Process the new entry
   console.log(`Processing new diary entry:\n"${testTranscript}"\n`);
-  console.log("--- 13-STEP PIPELINE EXECUTION ---\n");
+  console.log(" 13-STEP PIPELINE EXECUTION \n");
 
   const result = await pipeline.processDiaryEntry(testTranscript);
 
-  console.log("\n--- PIPELINE RESULTS ---\n");
+  console.log("\n PIPELINE RESULTS \n");
   console.log(`Entry ID: ${result.entryId}`);
   console.log(`AI Response: "${result.response_text}" (${result.response_text.length} chars)`);
   console.log(`Carry-in Flag: ${result.carry_in}`);
