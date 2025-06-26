@@ -1,4 +1,6 @@
 import { DiaryEntry, ParsedEntry, MetaData, UserProfile } from './types';
+import fs from 'fs';
+import path from 'path';
 
 export class MockDataGenerator {
   private static readonly SAMPLE_TRANSCRIPTS = [
@@ -30,6 +32,14 @@ export class MockDataGenerator {
   private static readonly BUCKETS = ["Goal", "Thought", "Hobby", "Value"];
 
   public static generateMockEntries(count: number): DiaryEntry[] {
+    const filePath = path.join(__dirname, 'test_diary_entries.json');
+    const fileContents = fs.readFileSync(filePath, 'utf-8');
+    const allEntries: DiaryEntry[] = JSON.parse(fileContents);
+  
+    return allEntries.slice(0, count);
+  }
+
+  public static generateMockEntries_old(count: number): DiaryEntry[] {
     const entries: DiaryEntry[] = [];
     const now = new Date();
 
