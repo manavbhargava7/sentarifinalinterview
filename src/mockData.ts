@@ -36,7 +36,12 @@ export class MockDataGenerator {
     const fileContents = fs.readFileSync(filePath, 'utf-8');
     const allEntries: DiaryEntry[] = JSON.parse(fileContents);
   
-    return allEntries.slice(0, count);
+    const parsedEntries = allEntries.map((entry: any) => ({
+    ...entry,
+    timestamp: new Date(entry.timestamp), // ✅ this is the key fix
+  }));
+
+  return parsedEntries.slice(0, count);
   }
 
   public static generateMockEntries_old(count: number): DiaryEntry[] {
