@@ -12,17 +12,22 @@
     "dev:embedding": "ts-node src/steps/embedding.ts",
     "dev:embedding:mock": "cross-env USE_MOCK_EMBEDDING=true ts-node src/steps/embedding.ts",
     "dev:embedding:real": "cross-env USE_MOCK_EMBEDDING=false ts-node src/steps/embedding.ts",
+    "dev:gpt-reply": "ts-node src/steps/gpt-reply.ts",
+    "dev:gpt-reply:real": "cross-env USE_REAL_GPT=true ts-node src/steps/gpt-reply.ts",
     "test": "jest",
     "test:embedding": "jest src/steps/embedding.test.ts",
+    "test:gpt-reply": "jest src/steps/gpt-reply.test.ts",
     "lint": "eslint src/**/*.ts",
     "preload:model": "ts-node -e \"import('./src/steps/embedding').then(m => m.preloadEmbeddingModel(false))\"",
     "win:embedding:mock": "set USE_MOCK_EMBEDDING=true && ts-node src/steps/embedding.ts",
-    "win:embedding:real": "set USE_MOCK_EMBEDDING=false && ts-node src/steps/embedding.ts"
+    "win:embedding:real": "set USE_MOCK_EMBEDDING=false && ts-node src/steps/embedding.ts",
+    "win:gpt-reply:real": "set USE_REAL_GPT=true && ts-node src/steps/gpt-reply.ts"
   },
   "dependencies": {
     "@xenova/transformers": "^2.17.2",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "openai": "^5.7.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
