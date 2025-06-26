@@ -1,0 +1,4025 @@
+[
+  {
+    "id": "7c672882-663e-493d-a2be-1820ce240665",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.9445461986216179,
+      0.5338415392535772,
+      0.7635094408903609
+    ],
+    "parsed": {
+      "theme": [
+        "mental health"
+      ],
+      "vibe": [
+        "overwhelmed",
+        "frustrated"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.451593"
+  },
+  {
+    "id": "511d3888-05ac-4efd-ab78-3cdacada800d",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.9524116114210363,
+      0.7851736383195862,
+      0.9794531511384398
+    ],
+    "parsed": {
+      "theme": [
+        "startup culture",
+        "technology"
+      ],
+      "vibe": [
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant",
+        "mentor"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.451961"
+  },
+  {
+    "id": "9a3fbde1-79b5-4ff2-b507-7e5a6a393143",
+    "raw_text": "Feeling really driven today! Shipped three features and the team momentum is incredible. Startup life is exhausting but so rewarding.",
+    "embedding": [
+      0.3424798575714125,
+      0.05740296017457369,
+      0.40533567402379234
+    ],
+    "parsed": {
+      "theme": [
+        "career growth"
+      ],
+      "vibe": [
+        "anxious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic",
+        "conscientious"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "exhausting",
+        "three",
+        "driven"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.452400"
+  },
+  {
+    "id": "74104401-6799-4523-8730-ca62697ab8c1",
+    "raw_text": "I spent the morning mentoring our new intern on React patterns. They're picking it up quickly but I worry about overwhelming them with too much at once.",
+    "embedding": [
+      0.6614798773311988,
+      0.4966113340360703,
+      0.43403197934870996
+    ],
+    "parsed": {
+      "theme": [
+        "remote collaboration",
+        "intern management"
+      ],
+      "vibe": [
+        "content"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic",
+        "conscientious"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 27,
+      "top_words": [
+        "mentoring",
+        "intern",
+        "spent"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.452743"
+  },
+  {
+    "id": "a5924bce-8643-4bf4-8cbb-786e0e57a836",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.20099808688833443,
+      0.13365944421956832,
+      0.42635673332192814
+    ],
+    "parsed": {
+      "theme": [
+        "leadership",
+        "productivity"
+      ],
+      "vibe": [
+        "happy",
+        "excited"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.453181"
+  },
+  {
+    "id": "63c530c8-d7fa-4c3c-984f-1fe010470563",
+    "raw_text": "Feeling really driven today! Shipped three features and the team momentum is incredible. Startup life is exhausting but so rewarding.",
+    "embedding": [
+      0.11622308567180406,
+      0.04477282682949324,
+      0.17584755072623426
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics"
+      ],
+      "vibe": [
+        "exhausted",
+        "content"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious",
+        "empathetic"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "exhausting",
+        "three",
+        "driven"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.453326"
+  },
+  {
+    "id": "96b1e13c-132b-4a4f-bf3f-f01cde3e07e1",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.507928513738803,
+      0.3364199365097199,
+      0.2829425228322485
+    ],
+    "parsed": {
+      "theme": [
+        "leadership"
+      ],
+      "vibe": [
+        "content"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.453444"
+  },
+  {
+    "id": "71e69328-6247-499b-87a6-172d1b194a56",
+    "raw_text": "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly.",
+    "embedding": [
+      0.11803966695614121,
+      0.025659929917452362,
+      0.8646045497677195
+    ],
+    "parsed": {
+      "theme": [
+        "innovation"
+      ],
+      "vibe": [
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "mentor"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "meeting",
+        "enough",
+        "conflicting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.453605"
+  },
+  {
+    "id": "de90a136-0ec5-4283-82ec-c928fc6c6b89",
+    "raw_text": "The new productivity system I implemented is finally paying off. The team seems more focused and our sprint velocity increased.",
+    "embedding": [
+      0.29527371653511847,
+      0.195398491993798,
+      0.2661355990961112
+    ],
+    "parsed": {
+      "theme": [
+        "personal growth"
+      ],
+      "vibe": [
+        "insecure",
+        "excited"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "mentor",
+        "empathetic"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "implemented",
+        "increased",
+        "sprint"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.453824"
+  },
+  {
+    "id": "2bd63d3f-a222-417e-94ef-168424fd967f",
+    "raw_text": "The new productivity system I implemented is finally paying off. The team seems more focused and our sprint velocity increased.",
+    "embedding": [
+      0.5395510552193056,
+      0.2866291626826484,
+      0.8326855061201311
+    ],
+    "parsed": {
+      "theme": [
+        "mental health"
+      ],
+      "vibe": [
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "mentor"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "implemented",
+        "increased",
+        "sprint"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.453888"
+  },
+  {
+    "id": "76f241aa-9d5a-4b3a-9049-ae17b65861de",
+    "raw_text": "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
+    "embedding": [
+      0.24650639533770946,
+      0.5724137202833707,
+      0.6584183145359163
+    ],
+    "parsed": {
+      "theme": [
+        "career growth",
+        "personal growth"
+      ],
+      "vibe": [
+        "curious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "mentor"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "automation",
+        "Curious",
+        "everyone's"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.453959"
+  },
+  {
+    "id": "f9269943-6a0a-46ea-9252-db2dd8245730",
+    "raw_text": "The new productivity system I implemented is finally paying off. The team seems more focused and our sprint velocity increased.",
+    "embedding": [
+      0.8154561439659718,
+      0.8339781709791193,
+      0.6112741726308161
+    ],
+    "parsed": {
+      "theme": [
+        "intern management"
+      ],
+      "vibe": [
+        "insecure",
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "implemented",
+        "increased",
+        "sprint"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454004"
+  },
+  {
+    "id": "c5d87cb4-9036-42ce-81a4-09554674d883",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.7122622381446378,
+      0.1792940282337906,
+      0.1934792447863528
+    ],
+    "parsed": {
+      "theme": [
+        "technology",
+        "work-life balance"
+      ],
+      "vibe": [
+        "exhausted"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic",
+        "vigilant"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454184"
+  },
+  {
+    "id": "03b784e8-4812-4eb9-bad0-ba40a780e728",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.49144884551236434,
+      0.7109373032991714,
+      0.7389197844225416
+    ],
+    "parsed": {
+      "theme": [
+        "productivity"
+      ],
+      "vibe": [
+        "insecure",
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "mentor"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454254"
+  },
+  {
+    "id": "0dcff9e7-c7d2-40a3-bcc7-b8ade70cca6f",
+    "raw_text": "I spent the morning mentoring our new intern on React patterns. They're picking it up quickly but I worry about overwhelming them with too much at once.",
+    "embedding": [
+      0.03475576390840751,
+      0.2640286089543148,
+      0.28242038009575543
+    ],
+    "parsed": {
+      "theme": [
+        "remote collaboration"
+      ],
+      "vibe": [
+        "curious",
+        "anxious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 27,
+      "top_words": [
+        "mentoring",
+        "intern",
+        "spent"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454312"
+  },
+  {
+    "id": "8b7ef5d2-ad05-470d-a10e-d6c2c325a17f",
+    "raw_text": "Working late again trying to hit this deadline. I know I should prioritize work-life balance but this project feels critical.",
+    "embedding": [
+      0.9981257244069088,
+      0.13160992207810895,
+      0.9348196338637256
+    ],
+    "parsed": {
+      "theme": [
+        "productivity",
+        "intern management"
+      ],
+      "vibe": [
+        "overwhelmed",
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "feels",
+        "critical",
+        "trying"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454384"
+  },
+  {
+    "id": "de09054c-b2e6-46fb-a382-a188662bda5c",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.7539368566734047,
+      0.04184740178126822,
+      0.7587687198110987
+    ],
+    "parsed": {
+      "theme": [
+        "work-life balance",
+        "career growth"
+      ],
+      "vibe": [
+        "content"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic",
+        "organiser"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454462"
+  },
+  {
+    "id": "adb54a07-de00-4c5a-99bd-1319a3ef74ba",
+    "raw_text": "Working late again trying to hit this deadline. I know I should prioritize work-life balance but this project feels critical.",
+    "embedding": [
+      0.8834091540078738,
+      0.5368371269141642,
+      0.42866097988151586
+    ],
+    "parsed": {
+      "theme": [
+        "personal growth",
+        "innovation"
+      ],
+      "vibe": [
+        "excited",
+        "happy"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "mentor"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "feels",
+        "critical",
+        "trying"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454527"
+  },
+  {
+    "id": "8d59e1fe-8d24-4611-8c34-9bd6308b0cca",
+    "raw_text": "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly.",
+    "embedding": [
+      0.374221622214457,
+      0.6650643905339755,
+      0.15270800885521385
+    ],
+    "parsed": {
+      "theme": [
+        "mental health",
+        "technology"
+      ],
+      "vibe": [
+        "exhausted",
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "mentor",
+        "empathetic"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "meeting",
+        "enough",
+        "conflicting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454580"
+  },
+  {
+    "id": "1a515bde-3f8f-49f5-8c5f-f1838839ff29",
+    "raw_text": "I spent the morning mentoring our new intern on React patterns. They're picking it up quickly but I worry about overwhelming them with too much at once.",
+    "embedding": [
+      0.2936155582670107,
+      0.018636936257689474,
+      0.7441271318087268
+    ],
+    "parsed": {
+      "theme": [
+        "leadership",
+        "team dynamics"
+      ],
+      "vibe": [
+        "hopeful",
+        "happy"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser",
+        "builder"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 27,
+      "top_words": [
+        "mentoring",
+        "intern",
+        "spent"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454621"
+  },
+  {
+    "id": "0a0fefc9-b384-411a-95d9-f4a23024792f",
+    "raw_text": "Working late again trying to hit this deadline. I know I should prioritize work-life balance but this project feels critical.",
+    "embedding": [
+      0.26142950679939836,
+      0.41653725479165116,
+      0.2155711875761932
+    ],
+    "parsed": {
+      "theme": [
+        "mental health"
+      ],
+      "vibe": [
+        "insecure",
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "mentor"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "feels",
+        "critical",
+        "trying"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454657"
+  },
+  {
+    "id": "6fcb5115-0588-430f-a4d4-f54d36730890",
+    "raw_text": "Had a difficult conversation with the founder about our company culture. Sometimes I wonder if we're moving too fast and losing our values.",
+    "embedding": [
+      0.6394001915899782,
+      0.40285065036987167,
+      0.9012294173100248
+    ],
+    "parsed": {
+      "theme": [
+        "remote collaboration",
+        "team dynamics"
+      ],
+      "vibe": [
+        "insecure"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant",
+        "builder"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 23,
+      "top_words": [
+        "Sometimes",
+        "wonder",
+        "conversation"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454696"
+  },
+  {
+    "id": "40351ccf-2cde-4fd6-aa75-f85db4455d6d",
+    "raw_text": "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
+    "embedding": [
+      0.48646988461839347,
+      0.7114715003484584,
+      0.31129486421369146
+    ],
+    "parsed": {
+      "theme": [
+        "intern management",
+        "innovation"
+      ],
+      "vibe": [
+        "exhausted"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious",
+        "vigilant"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "automation",
+        "Curious",
+        "everyone's"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454752"
+  },
+  {
+    "id": "7cee62bc-93f6-4446-be8d-aef427aeb46b",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.7032681363067769,
+      0.6141364920359534,
+      0.23566347939308008
+    ],
+    "parsed": {
+      "theme": [
+        "technology",
+        "startup culture"
+      ],
+      "vibe": [
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "empathetic"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454800"
+  },
+  {
+    "id": "4810300b-9809-4eba-afa7-a61a0a85b375",
+    "raw_text": "The new productivity system I implemented is finally paying off. The team seems more focused and our sprint velocity increased.",
+    "embedding": [
+      0.7772399441052621,
+      0.6444551295950317,
+      0.986666267019496
+    ],
+    "parsed": {
+      "theme": [
+        "mental health"
+      ],
+      "vibe": [
+        "curious",
+        "insecure"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "mentor"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "implemented",
+        "increased",
+        "sprint"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454849"
+  },
+  {
+    "id": "e79ffabb-a36a-4a27-91f8-3961066afbe6",
+    "raw_text": "Had a difficult conversation with the founder about our company culture. Sometimes I wonder if we're moving too fast and losing our values.",
+    "embedding": [
+      0.9150486660585748,
+      0.42253738864254076,
+      0.4059460524782029
+    ],
+    "parsed": {
+      "theme": [
+        "intern management"
+      ],
+      "vibe": [
+        "hopeful",
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious",
+        "builder"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 23,
+      "top_words": [
+        "Sometimes",
+        "wonder",
+        "conversation"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454910"
+  },
+  {
+    "id": "b1aa369a-e6d1-462e-a82a-0679d74d4cee",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.3925274795073709,
+      0.4836542815920427,
+      0.6522984386350008
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics"
+      ],
+      "vibe": [
+        "content",
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser",
+        "empathetic"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.454964"
+  },
+  {
+    "id": "d34c8a48-decf-4ee4-b24a-dbe6a6e0b295",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.468594455678516,
+      0.370523272369467,
+      0.9167739527744464
+    ],
+    "parsed": {
+      "theme": [
+        "work-life balance",
+        "leadership"
+      ],
+      "vibe": [
+        "happy"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455201"
+  },
+  {
+    "id": "5e91304b-b05a-40a8-a5f0-f8c9a2ac9020",
+    "raw_text": "Working late again trying to hit this deadline. I know I should prioritize work-life balance but this project feels critical.",
+    "embedding": [
+      0.6553097264257567,
+      0.13030229732200016,
+      0.7714337674183865
+    ],
+    "parsed": {
+      "theme": [
+        "personal growth"
+      ],
+      "vibe": [
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic",
+        "organiser"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "feels",
+        "critical",
+        "trying"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455279"
+  },
+  {
+    "id": "a943d096-4b69-4f42-9285-882c4d2defa4",
+    "raw_text": "Struggling with imposter syndrome again. Everyone seems so confident while I'm questioning every decision I make.",
+    "embedding": [
+      0.7841756475319485,
+      0.6786678679579758,
+      0.2821687708540038
+    ],
+    "parsed": {
+      "theme": [
+        "project planning",
+        "remote collaboration"
+      ],
+      "vibe": [
+        "content",
+        "frustrated"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 16,
+      "top_words": [
+        "decision",
+        "syndrome",
+        "confident"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455325"
+  },
+  {
+    "id": "823ba0a9-bbd9-426b-ae36-db6021b9e838",
+    "raw_text": "Struggling with imposter syndrome again. Everyone seems so confident while I'm questioning every decision I make.",
+    "embedding": [
+      0.3156397379311442,
+      0.37906967033798566,
+      0.43811768770969906
+    ],
+    "parsed": {
+      "theme": [
+        "remote collaboration",
+        "mental health"
+      ],
+      "vibe": [
+        "insecure"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 16,
+      "top_words": [
+        "decision",
+        "syndrome",
+        "confident"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455376"
+  },
+  {
+    "id": "0d113e32-deac-4dc6-b5dd-1f9e7b7a0f30",
+    "raw_text": "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly.",
+    "embedding": [
+      0.8312979494268434,
+      0.28267643542269394,
+      0.3020128081860989
+    ],
+    "parsed": {
+      "theme": [
+        "leadership",
+        "work-life balance"
+      ],
+      "vibe": [
+        "excited",
+        "happy"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser",
+        "vigilant"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "meeting",
+        "enough",
+        "conflicting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455418"
+  },
+  {
+    "id": "db69de0a-eb4f-4958-960c-95f09c164905",
+    "raw_text": "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
+    "embedding": [
+      0.6184482464167381,
+      0.30127469059062284,
+      0.43028962673451854
+    ],
+    "parsed": {
+      "theme": [
+        "mental health"
+      ],
+      "vibe": [
+        "overwhelmed"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "automation",
+        "Curious",
+        "everyone's"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455481"
+  },
+  {
+    "id": "3930bbbe-26b2-4a3a-b045-20fa7b2fcb9c",
+    "raw_text": "Feeling really driven today! Shipped three features and the team momentum is incredible. Startup life is exhausting but so rewarding.",
+    "embedding": [
+      0.534163656685868,
+      0.9581894221436792,
+      0.3916569838579348
+    ],
+    "parsed": {
+      "theme": [
+        "career growth",
+        "productivity"
+      ],
+      "vibe": [
+        "curious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "exhausting",
+        "three",
+        "driven"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455522"
+  },
+  {
+    "id": "49e97c03-3414-470c-a7dc-d945cf9d1a3e",
+    "raw_text": "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
+    "embedding": [
+      0.4191222018791406,
+      0.5545814384496175,
+      0.5980521770091377
+    ],
+    "parsed": {
+      "theme": [
+        "startup culture",
+        "innovation"
+      ],
+      "vibe": [
+        "exhausted",
+        "anxious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "automation",
+        "Curious",
+        "everyone's"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455597"
+  },
+  {
+    "id": "2bbf7110-a4ff-4ef4-b27a-c1204a967e87",
+    "raw_text": "Struggling with imposter syndrome again. Everyone seems so confident while I'm questioning every decision I make.",
+    "embedding": [
+      0.38738272924737993,
+      0.568548153247704,
+      0.700979178962058
+    ],
+    "parsed": {
+      "theme": [
+        "career growth",
+        "mental health"
+      ],
+      "vibe": [
+        "happy",
+        "insecure"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant",
+        "mentor"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 16,
+      "top_words": [
+        "decision",
+        "syndrome",
+        "confident"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455647"
+  },
+  {
+    "id": "e721f907-b6be-4f17-97fe-9e8c5b2a2b57",
+    "raw_text": "The new productivity system I implemented is finally paying off. The team seems more focused and our sprint velocity increased.",
+    "embedding": [
+      0.8856681135481907,
+      0.27647741916020585,
+      0.39419135804259964
+    ],
+    "parsed": {
+      "theme": [
+        "startup culture",
+        "project planning"
+      ],
+      "vibe": [
+        "frustrated",
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "implemented",
+        "increased",
+        "sprint"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455701"
+  },
+  {
+    "id": "62a6d531-025f-47b1-a776-dac4e2f4abd2",
+    "raw_text": "Feeling really driven today! Shipped three features and the team momentum is incredible. Startup life is exhausting but so rewarding.",
+    "embedding": [
+      0.5213097684621063,
+      0.6993580272057454,
+      0.41799264326254504
+    ],
+    "parsed": {
+      "theme": [
+        "project planning",
+        "personal growth"
+      ],
+      "vibe": [
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "exhausting",
+        "three",
+        "driven"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455755"
+  },
+  {
+    "id": "bc1e3c3b-ed2d-46d1-bcb4-29195b8bf6af",
+    "raw_text": "Feeling really driven today! Shipped three features and the team momentum is incredible. Startup life is exhausting but so rewarding.",
+    "embedding": [
+      0.8107696203893129,
+      0.14578130197689798,
+      0.9384213256663109
+    ],
+    "parsed": {
+      "theme": [
+        "personal growth",
+        "intern management"
+      ],
+      "vibe": [
+        "frustrated"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "exhausting",
+        "three",
+        "driven"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455799"
+  },
+  {
+    "id": "8460ab53-cd2c-4f71-9e60-f1ca83ef10b7",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.37738173757212756,
+      0.21396337684442235,
+      0.34936454149222607
+    ],
+    "parsed": {
+      "theme": [
+        "remote collaboration",
+        "intern management"
+      ],
+      "vibe": [
+        "happy",
+        "excited"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455851"
+  },
+  {
+    "id": "2c21f486-c2db-4313-88b0-6271ed67fbd8",
+    "raw_text": "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly.",
+    "embedding": [
+      0.27977502924126973,
+      0.15816014331816886,
+      0.9623087091280029
+    ],
+    "parsed": {
+      "theme": [
+        "innovation",
+        "team dynamics"
+      ],
+      "vibe": [
+        "frustrated",
+        "insecure"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant",
+        "builder"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "meeting",
+        "enough",
+        "conflicting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455901"
+  },
+  {
+    "id": "84c8cdd5-0617-43c0-bbdc-6771f8166d0f",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.1752820687095361,
+      0.9526399453253308,
+      0.42993345160759755
+    ],
+    "parsed": {
+      "theme": [
+        "leadership",
+        "career growth"
+      ],
+      "vibe": [
+        "overwhelmed",
+        "happy"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.455969"
+  },
+  {
+    "id": "cc2a2b5f-7251-448c-99f8-f3c9e60f4118",
+    "raw_text": "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly.",
+    "embedding": [
+      0.12863059920605535,
+      0.2764366822635762,
+      0.4211345231227652
+    ],
+    "parsed": {
+      "theme": [
+        "personal growth"
+      ],
+      "vibe": [
+        "happy",
+        "anxious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant",
+        "empathetic"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "meeting",
+        "enough",
+        "conflicting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456029"
+  },
+  {
+    "id": "39cf0e9d-583b-42e4-a01a-27bacd2680e9",
+    "raw_text": "Struggling with imposter syndrome again. Everyone seems so confident while I'm questioning every decision I make.",
+    "embedding": [
+      0.11078145438405484,
+      0.5532742422978498,
+      0.2726443716551006
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics"
+      ],
+      "vibe": [
+        "overwhelmed",
+        "exhausted"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "empathetic"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 16,
+      "top_words": [
+        "decision",
+        "syndrome",
+        "confident"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456067"
+  },
+  {
+    "id": "a7f848fa-6ac4-4c62-a2d3-aeb38282e308",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.9526478750804606,
+      0.04946605167070206,
+      0.4510804455550319
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics",
+        "productivity"
+      ],
+      "vibe": [
+        "frustrated",
+        "curious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser",
+        "empathetic"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456115"
+  },
+  {
+    "id": "122dd30b-1782-44a7-bb7e-445c92a3c08b",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.28842810556361165,
+      0.6970884214073625,
+      0.27982332505409646
+    ],
+    "parsed": {
+      "theme": [
+        "startup culture",
+        "team dynamics"
+      ],
+      "vibe": [
+        "frustrated",
+        "content"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious",
+        "organiser"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456184"
+  },
+  {
+    "id": "c9eb9e72-d236-4c17-8f7b-543aeef9afe4",
+    "raw_text": "Feeling really driven today! Shipped three features and the team momentum is incredible. Startup life is exhausting but so rewarding.",
+    "embedding": [
+      0.05315318698418536,
+      0.6012289097227451,
+      0.8613709011153113
+    ],
+    "parsed": {
+      "theme": [
+        "innovation",
+        "remote collaboration"
+      ],
+      "vibe": [
+        "frustrated",
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "exhausting",
+        "three",
+        "driven"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456240"
+  },
+  {
+    "id": "35551982-19c5-4500-aeb4-421bce745b69",
+    "raw_text": "Had a difficult conversation with the founder about our company culture. Sometimes I wonder if we're moving too fast and losing our values.",
+    "embedding": [
+      0.4408708606123456,
+      0.08775893624696085,
+      0.3975208304468152
+    ],
+    "parsed": {
+      "theme": [
+        "intern management"
+      ],
+      "vibe": [
+        "happy",
+        "frustrated"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant",
+        "conscientious"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 23,
+      "top_words": [
+        "Sometimes",
+        "wonder",
+        "conversation"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456304"
+  },
+  {
+    "id": "cf4dea11-c2d0-4502-8184-cc2680e4f69f",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.6491885437417322,
+      0.40360719764034425,
+      0.8771967290315068
+    ],
+    "parsed": {
+      "theme": [
+        "technology",
+        "personal growth"
+      ],
+      "vibe": [
+        "exhausted",
+        "curious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic",
+        "vigilant"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456346"
+  },
+  {
+    "id": "ee7a7457-9d00-461a-9475-0e7be93a2bc6",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.9614501195535338,
+      0.30199526951964395,
+      0.5353050865731651
+    ],
+    "parsed": {
+      "theme": [
+        "startup culture"
+      ],
+      "vibe": [
+        "insecure"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456385"
+  },
+  {
+    "id": "86918e04-3eaa-435c-812c-83a3e4143ec6",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.5388792665417,
+      0.8933338073078423,
+      0.12062024846227015
+    ],
+    "parsed": {
+      "theme": [
+        "mental health",
+        "productivity"
+      ],
+      "vibe": [
+        "excited",
+        "overwhelmed"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious",
+        "builder"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456533"
+  },
+  {
+    "id": "61cb46a9-5d73-44ed-a2d3-3997db3ac103",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.9590998488611178,
+      0.9602201298453543,
+      0.5966302551387878
+    ],
+    "parsed": {
+      "theme": [
+        "technology"
+      ],
+      "vibe": [
+        "exhausted",
+        "content"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "mentor"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456592"
+  },
+  {
+    "id": "795f4dd3-4aa9-45af-a634-8ea85706ae1d",
+    "raw_text": "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
+    "embedding": [
+      0.46413372276450193,
+      0.034397957488188746,
+      0.10316694896879042
+    ],
+    "parsed": {
+      "theme": [
+        "personal growth"
+      ],
+      "vibe": [
+        "frustrated",
+        "happy"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "mentor",
+        "vigilant"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "automation",
+        "Curious",
+        "everyone's"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456662"
+  },
+  {
+    "id": "43739afa-2c0e-46a9-955d-bacee0858061",
+    "raw_text": "Working late again trying to hit this deadline. I know I should prioritize work-life balance but this project feels critical.",
+    "embedding": [
+      0.7282568157808927,
+      0.7550579051448943,
+      0.33252195339949
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics",
+        "startup culture"
+      ],
+      "vibe": [
+        "curious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious",
+        "vigilant"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "feels",
+        "critical",
+        "trying"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456719"
+  },
+  {
+    "id": "cf72f11d-3bad-49ee-b1e1-364f7b537dcd",
+    "raw_text": "I spent the morning mentoring our new intern on React patterns. They're picking it up quickly but I worry about overwhelming them with too much at once.",
+    "embedding": [
+      0.806936513833069,
+      0.07573146552953147,
+      0.8654453560890615
+    ],
+    "parsed": {
+      "theme": [
+        "work-life balance",
+        "leadership"
+      ],
+      "vibe": [
+        "exhausted"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser",
+        "vigilant"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 27,
+      "top_words": [
+        "mentoring",
+        "intern",
+        "spent"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456786"
+  },
+  {
+    "id": "f54e07c9-1450-4597-91f7-7ed34feac4b6",
+    "raw_text": "The new productivity system I implemented is finally paying off. The team seems more focused and our sprint velocity increased.",
+    "embedding": [
+      0.744820933740047,
+      0.8537920686143636,
+      0.29616609213055944
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics",
+        "productivity"
+      ],
+      "vibe": [
+        "frustrated"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious",
+        "builder"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "implemented",
+        "increased",
+        "sprint"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456845"
+  },
+  {
+    "id": "b8b84272-323c-4c7e-a94f-cf11e83f8981",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.16438143192620713,
+      0.657328234190396,
+      0.13930138145546178
+    ],
+    "parsed": {
+      "theme": [
+        "personal growth"
+      ],
+      "vibe": [
+        "confident",
+        "frustrated"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.456899"
+  },
+  {
+    "id": "04a6a5d1-bb18-4822-a3da-518c9fa8ea2b",
+    "raw_text": "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly.",
+    "embedding": [
+      0.08793023626552832,
+      0.7560609465658795,
+      0.1468303201760366
+    ],
+    "parsed": {
+      "theme": [
+        "career growth"
+      ],
+      "vibe": [
+        "excited",
+        "curious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "meeting",
+        "enough",
+        "conflicting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457049"
+  },
+  {
+    "id": "951bba72-70d6-47ca-b071-930c29a2a604",
+    "raw_text": "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
+    "embedding": [
+      0.6753800845786532,
+      0.5905950571921014,
+      0.7869571969107911
+    ],
+    "parsed": {
+      "theme": [
+        "intern management",
+        "productivity"
+      ],
+      "vibe": [
+        "driven"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic",
+        "builder"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "automation",
+        "Curious",
+        "everyone's"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457111"
+  },
+  {
+    "id": "2e00ecb1-f966-4ea4-a629-26abe5240c8e",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.7114430462428138,
+      0.41786686464904765,
+      0.5619148276634324
+    ],
+    "parsed": {
+      "theme": [
+        "project planning"
+      ],
+      "vibe": [
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser",
+        "mentor"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457164"
+  },
+  {
+    "id": "bd2298b7-d283-47a3-98c9-cd7b2e78d3d7",
+    "raw_text": "The new productivity system I implemented is finally paying off. The team seems more focused and our sprint velocity increased.",
+    "embedding": [
+      0.16747803717587917,
+      0.7718527481861841,
+      0.19008381332056834
+    ],
+    "parsed": {
+      "theme": [
+        "project planning"
+      ],
+      "vibe": [
+        "frustrated"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "implemented",
+        "increased",
+        "sprint"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457215"
+  },
+  {
+    "id": "4060c341-bf42-4c51-a743-220d43cda36c",
+    "raw_text": "Working late again trying to hit this deadline. I know I should prioritize work-life balance but this project feels critical.",
+    "embedding": [
+      0.4221027051943078,
+      0.2354192227757057,
+      0.504319115360336
+    ],
+    "parsed": {
+      "theme": [
+        "startup culture"
+      ],
+      "vibe": [
+        "happy",
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant",
+        "mentor"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "feels",
+        "critical",
+        "trying"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457273"
+  },
+  {
+    "id": "6b53ce30-881c-4006-a349-f2b37fbbec54",
+    "raw_text": "Feeling really driven today! Shipped three features and the team momentum is incredible. Startup life is exhausting but so rewarding.",
+    "embedding": [
+      0.23888086952470733,
+      0.190876853824415,
+      0.04350018730060268
+    ],
+    "parsed": {
+      "theme": [
+        "intern management"
+      ],
+      "vibe": [
+        "overwhelmed"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "vigilant"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "exhausting",
+        "three",
+        "driven"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457323"
+  },
+  {
+    "id": "ce7ec914-a60c-4d31-815f-fd7c7475b1b9",
+    "raw_text": "Feeling really driven today! Shipped three features and the team momentum is incredible. Startup life is exhausting but so rewarding.",
+    "embedding": [
+      0.053084296997708225,
+      0.2713408513870632,
+      0.1903703152408256
+    ],
+    "parsed": {
+      "theme": [
+        "work-life balance"
+      ],
+      "vibe": [
+        "insecure",
+        "content"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "mentor"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "exhausting",
+        "three",
+        "driven"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457392"
+  },
+  {
+    "id": "c97b9d47-fd8f-449b-bd9e-3d30a8497998",
+    "raw_text": "Working late again trying to hit this deadline. I know I should prioritize work-life balance but this project feels critical.",
+    "embedding": [
+      0.2972500870135365,
+      0.7927731462084272,
+      0.271119340806661
+    ],
+    "parsed": {
+      "theme": [
+        "intern management",
+        "productivity"
+      ],
+      "vibe": [
+        "happy",
+        "insecure"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant",
+        "mentor"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "feels",
+        "critical",
+        "trying"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457463"
+  },
+  {
+    "id": "f92bee83-db62-4258-96c8-e36781e00c2a",
+    "raw_text": "Feeling really driven today! Shipped three features and the team momentum is incredible. Startup life is exhausting but so rewarding.",
+    "embedding": [
+      0.05379838842697393,
+      0.6938574734425782,
+      0.1798128998489451
+    ],
+    "parsed": {
+      "theme": [
+        "innovation",
+        "work-life balance"
+      ],
+      "vibe": [
+        "insecure"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "mentor"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "exhausting",
+        "three",
+        "driven"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457522"
+  },
+  {
+    "id": "7e4ccb27-52eb-4188-bcf4-30cbf64ec23b",
+    "raw_text": "Had a difficult conversation with the founder about our company culture. Sometimes I wonder if we're moving too fast and losing our values.",
+    "embedding": [
+      0.7066291372725423,
+      0.2185451875728862,
+      0.7639803152653306
+    ],
+    "parsed": {
+      "theme": [
+        "productivity",
+        "technology"
+      ],
+      "vibe": [
+        "frustrated",
+        "driven"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 23,
+      "top_words": [
+        "Sometimes",
+        "wonder",
+        "conversation"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457637"
+  },
+  {
+    "id": "a94bf764-641a-4003-95db-0cbf4e1953b6",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.9455379211192866,
+      0.9281163549182174,
+      0.5451872574415983
+    ],
+    "parsed": {
+      "theme": [
+        "leadership"
+      ],
+      "vibe": [
+        "confident",
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457724"
+  },
+  {
+    "id": "00d0682d-792c-4644-bbe1-25f2d9ff3b39",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.09360583917321197,
+      0.6651250665097588,
+      0.40120632131186995
+    ],
+    "parsed": {
+      "theme": [
+        "leadership"
+      ],
+      "vibe": [
+        "happy",
+        "anxious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457781"
+  },
+  {
+    "id": "4812f6fa-6203-47d9-a984-ecb8daf289fd",
+    "raw_text": "Struggling with imposter syndrome again. Everyone seems so confident while I'm questioning every decision I make.",
+    "embedding": [
+      0.17222707099982992,
+      0.31034734682331944,
+      0.3212296401300573
+    ],
+    "parsed": {
+      "theme": [
+        "intern management"
+      ],
+      "vibe": [
+        "anxious",
+        "excited"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 16,
+      "top_words": [
+        "decision",
+        "syndrome",
+        "confident"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457839"
+  },
+  {
+    "id": "9ea11c6d-11df-4204-97a7-e6ecef8d895b",
+    "raw_text": "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
+    "embedding": [
+      0.6638541628054546,
+      0.2979869052732438,
+      0.18699459927317297
+    ],
+    "parsed": {
+      "theme": [
+        "startup culture"
+      ],
+      "vibe": [
+        "anxious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "automation",
+        "Curious",
+        "everyone's"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457877"
+  },
+  {
+    "id": "9c927165-1166-4d3a-891c-6660b3591d7f",
+    "raw_text": "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
+    "embedding": [
+      0.8053861257276962,
+      0.44612134728028163,
+      0.7119798068040468
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics"
+      ],
+      "vibe": [
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "automation",
+        "Curious",
+        "everyone's"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457914"
+  },
+  {
+    "id": "1a5ea520-fbc2-411a-87fd-e6fe99ff8a20",
+    "raw_text": "Struggling with imposter syndrome again. Everyone seems so confident while I'm questioning every decision I make.",
+    "embedding": [
+      0.5476548046195274,
+      0.04531326730520069,
+      0.04205389279565197
+    ],
+    "parsed": {
+      "theme": [
+        "mental health",
+        "project planning"
+      ],
+      "vibe": [
+        "happy",
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic",
+        "mentor"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 16,
+      "top_words": [
+        "decision",
+        "syndrome",
+        "confident"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.457964"
+  },
+  {
+    "id": "f787e4b7-4d1c-4015-8558-971f80c1776e",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.5498640348675742,
+      0.4807428871500409,
+      0.936484359227611
+    ],
+    "parsed": {
+      "theme": [
+        "mental health",
+        "startup culture"
+      ],
+      "vibe": [
+        "driven",
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser",
+        "mentor"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458148"
+  },
+  {
+    "id": "ba9a46a3-aca0-407f-912e-0b4fbb928670",
+    "raw_text": "The new productivity system I implemented is finally paying off. The team seems more focused and our sprint velocity increased.",
+    "embedding": [
+      0.7649127269907343,
+      0.12329041411430675,
+      0.8264182173318547
+    ],
+    "parsed": {
+      "theme": [
+        "career growth",
+        "productivity"
+      ],
+      "vibe": [
+        "overwhelmed",
+        "excited"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "mentor"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "implemented",
+        "increased",
+        "sprint"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458196"
+  },
+  {
+    "id": "b678a925-18ba-44cc-989a-3667c9c28d3b",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.5789053214353121,
+      0.1747142421160358,
+      0.17311481539064155
+    ],
+    "parsed": {
+      "theme": [
+        "remote collaboration"
+      ],
+      "vibe": [
+        "driven"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant",
+        "organiser"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458239"
+  },
+  {
+    "id": "82cfd335-c975-4d43-955a-067ab1b35ccb",
+    "raw_text": "Had a difficult conversation with the founder about our company culture. Sometimes I wonder if we're moving too fast and losing our values.",
+    "embedding": [
+      0.687791429658906,
+      0.5843105617718541,
+      0.7482149128218716
+    ],
+    "parsed": {
+      "theme": [
+        "remote collaboration",
+        "technology"
+      ],
+      "vibe": [
+        "excited"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 23,
+      "top_words": [
+        "Sometimes",
+        "wonder",
+        "conversation"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458310"
+  },
+  {
+    "id": "7602e2bf-469e-42b8-8e17-d579a40e8983",
+    "raw_text": "Had a difficult conversation with the founder about our company culture. Sometimes I wonder if we're moving too fast and losing our values.",
+    "embedding": [
+      0.791827247560811,
+      0.9502560271931548,
+      0.25585591198212965
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics",
+        "productivity"
+      ],
+      "vibe": [
+        "insecure"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 23,
+      "top_words": [
+        "Sometimes",
+        "wonder",
+        "conversation"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458365"
+  },
+  {
+    "id": "9ec53cf1-2047-41a1-ba3e-e27b44fb33f5",
+    "raw_text": "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly.",
+    "embedding": [
+      0.830072364397664,
+      0.8096629506415612,
+      0.20465198537133333
+    ],
+    "parsed": {
+      "theme": [
+        "intern management"
+      ],
+      "vibe": [
+        "anxious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "meeting",
+        "enough",
+        "conflicting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458405"
+  },
+  {
+    "id": "a4b1c176-acfc-4e66-885c-70a4b19be99e",
+    "raw_text": "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
+    "embedding": [
+      0.29156620224095775,
+      0.48078987024055575,
+      0.27228560319169604
+    ],
+    "parsed": {
+      "theme": [
+        "productivity",
+        "leadership"
+      ],
+      "vibe": [
+        "hopeful"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "automation",
+        "Curious",
+        "everyone's"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458455"
+  },
+  {
+    "id": "dfa11563-20a6-4c02-a38c-fbe5b587f0fd",
+    "raw_text": "Working late again trying to hit this deadline. I know I should prioritize work-life balance but this project feels critical.",
+    "embedding": [
+      0.4144092102122331,
+      0.5940628552974837,
+      0.39472537317773926
+    ],
+    "parsed": {
+      "theme": [
+        "technology"
+      ],
+      "vibe": [
+        "insecure",
+        "content"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious",
+        "mentor"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "feels",
+        "critical",
+        "trying"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458514"
+  },
+  {
+    "id": "609f1b68-369c-4db1-a91e-79e570ae3a08",
+    "raw_text": "The new productivity system I implemented is finally paying off. The team seems more focused and our sprint velocity increased.",
+    "embedding": [
+      0.31595920890767226,
+      0.12887187322862714,
+      0.5344570010429335
+    ],
+    "parsed": {
+      "theme": [
+        "career growth",
+        "intern management"
+      ],
+      "vibe": [
+        "hopeful",
+        "frustrated"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "vigilant"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "implemented",
+        "increased",
+        "sprint"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458602"
+  },
+  {
+    "id": "2b68ab35-6b8d-45b9-a2a8-841828da9b13",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.259068676415793,
+      0.6041144874051605,
+      0.4254192458329742
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics"
+      ],
+      "vibe": [
+        "confident",
+        "overwhelmed"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic",
+        "organiser"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458736"
+  },
+  {
+    "id": "405394a8-05cd-48a3-8dfd-ba326e03dbe2",
+    "raw_text": "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly.",
+    "embedding": [
+      0.8634417040333117,
+      0.2615025130647525,
+      0.5040215019514099
+    ],
+    "parsed": {
+      "theme": [
+        "remote collaboration",
+        "personal growth"
+      ],
+      "vibe": [
+        "insecure",
+        "overwhelmed"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "meeting",
+        "enough",
+        "conflicting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458842"
+  },
+  {
+    "id": "81408ec6-2ca9-42be-97da-77289f6ae5f8",
+    "raw_text": "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
+    "embedding": [
+      0.48578468600362046,
+      0.17860464442600654,
+      0.04119923512267387
+    ],
+    "parsed": {
+      "theme": [
+        "work-life balance",
+        "career growth"
+      ],
+      "vibe": [
+        "exhausted"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "intern",
+        "overwhelmed",
+        "everyone"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": true,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458907"
+  },
+  {
+    "id": "886883bf-13bd-4bd2-b64d-ad0df38d6b8c",
+    "raw_text": "Feeling really driven today! Shipped three features and the team momentum is incredible. Startup life is exhausting but so rewarding.",
+    "embedding": [
+      0.7680767728140081,
+      0.763712026724979,
+      0.8961370761181461
+    ],
+    "parsed": {
+      "theme": [
+        "productivity"
+      ],
+      "vibe": [
+        "content"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "exhausting",
+        "three",
+        "driven"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.458968"
+  },
+  {
+    "id": "4fd98544-4b4c-424e-b04d-99f95ba68290",
+    "raw_text": "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
+    "embedding": [
+      0.9439960080970433,
+      0.8742519450966659,
+      0.381941333683501
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics",
+        "productivity"
+      ],
+      "vibe": [
+        "exhausted",
+        "curious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic"
+      ],
+      "bucket": [
+        "Thought"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "automation",
+        "Curious",
+        "everyone's"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459019"
+  },
+  {
+    "id": "2379a75c-6586-4d4e-9e54-f00d0df26133",
+    "raw_text": "Struggling with imposter syndrome again. Everyone seems so confident while I'm questioning every decision I make.",
+    "embedding": [
+      0.4291679801303353,
+      0.6397302653822339,
+      0.6021554926616994
+    ],
+    "parsed": {
+      "theme": [
+        "personal growth"
+      ],
+      "vibe": [
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "vigilant"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 16,
+      "top_words": [
+        "decision",
+        "syndrome",
+        "confident"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459078"
+  },
+  {
+    "id": "1c67214b-aae0-4410-ba33-d93887ab9250",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.9200491339826542,
+      0.48654002839217514,
+      0.8841493346894601
+    ],
+    "parsed": {
+      "theme": [
+        "innovation"
+      ],
+      "vibe": [
+        "confident",
+        "content"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "vigilant"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459129"
+  },
+  {
+    "id": "ec86a85e-ee02-486e-af12-86dc06686081",
+    "raw_text": "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly.",
+    "embedding": [
+      0.14961719370434523,
+      0.9865990390521092,
+      0.9912734892748549
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics"
+      ],
+      "vibe": [
+        "driven"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "meeting",
+        "enough",
+        "conflicting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459179"
+  },
+  {
+    "id": "f6e2e1e1-1544-4dd6-b002-fac19160a4d4",
+    "raw_text": "Working late again trying to hit this deadline. I know I should prioritize work-life balance but this project feels critical.",
+    "embedding": [
+      0.729663994575508,
+      0.30309977651859743,
+      0.18783111035482147
+    ],
+    "parsed": {
+      "theme": [
+        "productivity"
+      ],
+      "vibe": [
+        "exhausted"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "feels",
+        "critical",
+        "trying"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459262"
+  },
+  {
+    "id": "cda35827-e312-491e-828d-0233ae371c43",
+    "raw_text": "Struggling with imposter syndrome again. Everyone seems so confident while I'm questioning every decision I make.",
+    "embedding": [
+      0.020996499698237248,
+      0.23943668632329096,
+      0.4896417610413504
+    ],
+    "parsed": {
+      "theme": [
+        "startup culture",
+        "technology"
+      ],
+      "vibe": [
+        "confident",
+        "content"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious",
+        "organiser"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 16,
+      "top_words": [
+        "decision",
+        "syndrome",
+        "confident"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459335"
+  },
+  {
+    "id": "1a872121-7a40-4bb1-b613-9e4f580eb0a7",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.0833353956840035,
+      0.3441548375137816,
+      0.12206058836358058
+    ],
+    "parsed": {
+      "theme": [
+        "personal growth"
+      ],
+      "vibe": [
+        "driven",
+        "anxious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "builder",
+        "mentor"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459372"
+  },
+  {
+    "id": "b4ef27af-3dca-4577-948d-7d60e5eabeb4",
+    "raw_text": "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
+    "embedding": [
+      0.7915617464422252,
+      0.9929720362878243,
+      0.6353323674859178
+    ],
+    "parsed": {
+      "theme": [
+        "mental health"
+      ],
+      "vibe": [
+        "curious",
+        "insecure"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "automation",
+        "Curious",
+        "everyone's"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459414"
+  },
+  {
+    "id": "8fe74a77-ce1b-4b3d-b87c-5f655263c7ce",
+    "raw_text": "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly.",
+    "embedding": [
+      0.8583552523041611,
+      0.026340058862411087,
+      0.4396706606581823
+    ],
+    "parsed": {
+      "theme": [
+        "leadership",
+        "career growth"
+      ],
+      "vibe": [
+        "driven",
+        "happy"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "empathetic"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 17,
+      "top_words": [
+        "meeting",
+        "enough",
+        "conflicting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459455"
+  },
+  {
+    "id": "268b13b2-dc00-4836-ab0f-9654e0af648d",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.23065693599113934,
+      0.8743297294596921,
+      0.02910900067530231
+    ],
+    "parsed": {
+      "theme": [
+        "mental health",
+        "leadership"
+      ],
+      "vibe": [
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "vigilant",
+        "empathetic"
+      ],
+      "bucket": [
+        "Hobby"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459494"
+  },
+  {
+    "id": "c4cdeca1-3f8f-45ba-972f-a6e2f90caf8a",
+    "raw_text": "I spent the morning mentoring our new intern on React patterns. They're picking it up quickly but I worry about overwhelming them with too much at once.",
+    "embedding": [
+      0.31514029864787885,
+      0.9239983462620055,
+      0.06487624625513888
+    ],
+    "parsed": {
+      "theme": [
+        "personal growth"
+      ],
+      "vibe": [
+        "exhausted",
+        "curious"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "conscientious"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 27,
+      "top_words": [
+        "mentoring",
+        "intern",
+        "spent"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459553"
+  },
+  {
+    "id": "21bbe587-994b-4a88-9b75-ddc5cb199778",
+    "raw_text": "Had a difficult conversation with the founder about our company culture. Sometimes I wonder if we're moving too fast and losing our values.",
+    "embedding": [
+      0.7493977510839713,
+      0.08826124201143115,
+      0.27442688379023583
+    ],
+    "parsed": {
+      "theme": [
+        "team dynamics"
+      ],
+      "vibe": [
+        "hopeful",
+        "exhausted"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser",
+        "builder"
+      ],
+      "bucket": [
+        "Goal"
+      ]
+    },
+    "meta_data": {
+      "word_count": 23,
+      "top_words": [
+        "Sometimes",
+        "wonder",
+        "conversation"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": false,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459682"
+  },
+  {
+    "id": "a84b9e00-278d-47f9-8123-96fb239507e7",
+    "raw_text": "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
+    "embedding": [
+      0.9024431441055211,
+      0.7880230195357649,
+      0.2060451900910727
+    ],
+    "parsed": {
+      "theme": [
+        "innovation",
+        "technology"
+      ],
+      "vibe": [
+        "content",
+        "confident"
+      ],
+      "intent": "Generated intent text",
+      "subtext": "Generated subtext hint",
+      "persona_trait": [
+        "organiser",
+        "builder"
+      ],
+      "bucket": [
+        "Value"
+      ]
+    },
+    "meta_data": {
+      "word_count": 20,
+      "top_words": [
+        "we've",
+        "breakthrough",
+        "waiting"
+      ],
+      "punctuation_flags": {
+        "has_exclamation": true,
+        "has_question": false,
+        "has_ellipsis": false
+      }
+    },
+    "timestamp": "2025-06-26T02:20:29.459740"
+  }
+]

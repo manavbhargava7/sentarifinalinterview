@@ -37,7 +37,8 @@ export class SentariPipeline {
         const raw_text = step01_rawTextIn(transcript);
 
         // Step 02: EMBEDDING
-        const embedding = step02_embedding(raw_text);
+        const embedding_result = await step02_embedding(raw_text);
+        const embedding = embedding_result.embedding;
 
         // Step 03: FETCH_RECENT
         const recent_entries = step03_fetchRecent(this.entries);
@@ -52,7 +53,7 @@ export class SentariPipeline {
         const parsed = step06_parseEntry(raw_text);
 
         // Step 07: CARRY_IN
-        const carry_in_result = step07_carryIn(embedding, recent_entries, parsed.theme);
+        const carry_in_result = step07_carryIn(embedding, parsed.theme, recent_entries);
 
         // Step 08: CONTRAST_CHECK
         const contrast_result = await step08_contrastCheck(parsed.vibe, current_profile, raw_text);
@@ -64,7 +65,8 @@ export class SentariPipeline {
         const entryId = step10_saveEntry(raw_text, embedding, parsed, meta_data, this.entries);
 
         // Step 11: GPT_REPLY
-        const response_text = step11_gptReply(parsed, updated_profile, carry_in_result.carry_in, contrast_result.emotion_flip);
+        const gpt_result = await step11_gptReply(parsed, updated_profile, carry_in_result.carry_in);
+        const response_text = gpt_result.response_text;
 
         // Step 12: PUBLISH
         const output = step12_publish(entryId, response_text, carry_in_result.carry_in, contrast_result.emotion_flip, updated_profile);
