@@ -11,7 +11,7 @@ export class MockDataGenerator {
     "The new productivity system I implemented is finally paying off. The team seems more focused and our sprint velocity increased.",
     "Feeling overwhelmed by all the intern applications. How do I choose fairly when everyone seems so talented?",
     "Curious about this new AI tool everyone's talking about. Might be worth exploring for our automation needs.",
-    "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly.",
+    "Exhausted from the all-hands meeting. So many conflicting priorities and not enough time to execute everything properly",
     "Excited about the startup accelerator program we got accepted into! This could be the breakthrough moment we've been waiting for.",
     "Struggling with imposter syndrome again. Everyone seems so confident while I'm questioning every decision I make."
   ];
