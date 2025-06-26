@@ -578,3 +578,9 @@ async function main(): Promise<void> {
 if (require.main === module) {
   main().catch(console.error);
 }
+
+// Export for pipeline integration
+export async function step02_embedding(rawText: string): Promise<number[]> {
+    const result = await embeddingStep(rawText);
+    return result.embedding;
+  }

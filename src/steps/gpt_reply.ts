@@ -485,3 +485,14 @@ async function main(): Promise<void> {
 if (require.main === module) {
   main().catch(console.error);
 }
+
+// Export for pipeline integration
+export async function step11_gptReply(
+  parsedEntry: ParsedEntry,
+  userProfile: UserProfile,
+  carryIn: boolean,
+  emotionFlip?: boolean
+): Promise<string> {
+  const result = await gptReplyStep(parsedEntry, userProfile, carryIn);
+  return result.response_text;
+}

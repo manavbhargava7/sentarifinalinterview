@@ -58,3 +58,12 @@ export function detectCarryIn(
     matching_themes: matchingThemes
   };
 }
+
+// Export for pipeline integration  
+export function step07_carryIn(
+  currentEmbedding: number[],
+  recentEntries: DiaryEntry[],
+  currentThemes: string[]
+): CarryInResult {
+  return detectCarryIn(currentEmbedding, currentThemes, recentEntries);
+}
