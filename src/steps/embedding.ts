@@ -96,8 +96,8 @@ class EmbeddingGenerator {
     try {
       Logger.info(`Loading model: ${this.modelName} (this may take a moment on first use)`);
       
-      // Use sentence-transformers pipeline for proper sentence embeddings
-      const embedder = await pipeline('sentence-transformers', this.modelName, {
+      // FIXED: Use feature-extraction pipeline (supported by @xenova/transformers)
+      const embedder = await pipeline('feature-extraction', this.modelName, {
         quantized: false,
         revision: 'main'
       });
@@ -110,6 +110,7 @@ class EmbeddingGenerator {
       this.useMock = true;
     }
   }
+
 
   private get model(): any {
     return EmbeddingGenerator.models.get(this.modelName);
