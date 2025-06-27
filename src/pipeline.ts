@@ -7,6 +7,8 @@ import {
   CarryInResult, 
   ContrastResult 
 } from './types';
+import { step06_parseEntry } from './steps/parse_entry';
+import { step05_metaExtract } from './steps/meta_extract';
 
 export class SentariPipeline {
   private entries: Map<string, DiaryEntry> = new Map();
