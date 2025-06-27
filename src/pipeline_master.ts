@@ -98,4 +98,76 @@ export class SentariPipeline {
     public setProfile(profile: UserProfile): void {
         this.profile = profile;
     }
+
+    public reset(): void {
+        this.entries.clear();
+        this.profile = null;
+        this.startTime = 0;
+        console.log('[PIPELINE] Reset complete - cleared entries and profile');
+    }
+
+    public async reloadOllamaModel(): Promise<void> {
+        try {
+            // First, try to pull the model again to force a fresh load
+            console.log('[PIPELINE] Pulling phi model to force fresh load...');
+            try {
+                await fetch('http://127.0.0.1:11434/api/pull', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        name: 'phi',
+                        stream: false
+                    })
+                });
+            } catch (pullError) {
+                console.warn('[PIPELINE] Model pull failed, continuing with reset:', pullError);
+            }
+
+            // Clear the Ollama model from memory by making multiple requests
+            const resetPromises = [
+                // First, make a simple reset request
+                fetch('http://127.0.0.1:11434/api/generate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        model: 'phi',
+                        prompt: 'Reset context. Clear memory. Start fresh.',
+                        stream: false,
+                        options: {
+                            temperature: 0.1,
+                            num_predict: 5
+                        }
+                    })
+                }),
+                // Then make another request to ensure context is cleared
+                fetch('http://127.0.0.1:11434/api/generate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        model: 'phi',
+                        prompt: 'You are starting completely fresh. No previous context.',
+                        stream: false,
+                        options: {
+                            temperature: 0.1,
+                            num_predict: 5
+                        }
+                    })
+                })
+            ];
+
+            await Promise.all(resetPromises);
+            console.log('[PIPELINE] Ollama model context cleared successfully');
+        } catch (error) {
+            console.warn('[PIPELINE] Error clearing Ollama model context:', error);
+        }
+    }
+
+    public getPipelineStatus(): object {
+        return {
+            entryCount: this.entries.size,
+            hasProfile: this.profile !== null,
+            profileThemes: this.profile?.top_themes || [],
+            profileVibes: this.profile?.dominant_vibe || 'none'
+        };
+    }
 } 

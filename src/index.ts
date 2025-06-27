@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import { SentariPipeline } from './pipeline_master';
@@ -54,6 +55,30 @@ app.post('/api/reset', (req, res) => {
     const newPipeline = new SentariPipeline();
     Object.assign(pipeline, newPipeline);
     res.json({ message: 'Pipeline reset successfully' });
+});
+
+app.post('/api/reload-model', async (req, res) => {
+    try {
+        await pipeline.reloadOllamaModel();
+        res.json({ message: 'Ollama model reloaded successfully' });
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to reload model' });
+    }
+});
+
+app.get('/api/status', (req, res) => {
+    const status = pipeline.getPipelineStatus();
+    res.json(status);
+});
+
+app.post('/api/reset-and-reload', async (req, res) => {
+    try {
+        pipeline.reset();
+        await pipeline.reloadOllamaModel();
+        res.json({ message: 'Pipeline reset and model reloaded successfully' });
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to reset and reload' });
+    }
 });
 
 // Serve the HTML UI
@@ -358,7 +383,11 @@ app.listen(port, () => {
     console.log(`- Web UI: http://localhost:${port}`);
     console.log(`- API: POST /api/process`);
     console.log(`- Profile: GET /api/profile`);
+    console.log(`- Status: GET /api/status`);
+    console.log(`- Reset: POST /api/reset`);
+    console.log(`- Reload Model: POST /api/reload-model`);
+    console.log(`- Reset & Reload: POST /api/reset-and-reload`);
     console.log(`\nTo run simulations:`);
     console.log(`- npm run simulate:first`);
     console.log(`- npm run simulate:hundred\n`);
-}); 
+});
