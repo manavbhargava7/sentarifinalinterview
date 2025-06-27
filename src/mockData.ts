@@ -32,7 +32,7 @@ export class MockDataGenerator {
   private static readonly BUCKETS = ["Goal", "Thought", "Hobby", "Value"];
 
   public static generateMockEntries(count: number): DiaryEntry[] {
-    const filePath = path.join(__dirname, 'test_diary_entries.json');
+    const filePath = path.resolve(process.cwd(), 'src', 'test_diary_entries.json');
     const fileContents = fs.readFileSync(filePath, 'utf-8');
     const allEntries: DiaryEntry[] = JSON.parse(fileContents);
   
