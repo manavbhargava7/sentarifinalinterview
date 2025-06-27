@@ -1,4 +1,3 @@
-import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import { SentariPipeline } from './pipeline_master';
@@ -32,10 +31,10 @@ app.post('/api/process', async (req, res) => {
         }
 
         const result = await pipeline.processDiaryEntry(transcript);
-        return res.json(result);
+        res.json(result);
     } catch (error) {
         console.error('Pipeline error:', error);
-        return res.status(500).json({ error: 'Pipeline processing failed' });
+        res.status(500).json({ error: 'Pipeline processing failed' });
     }
 });
 
@@ -55,30 +54,6 @@ app.post('/api/reset', (req, res) => {
     const newPipeline = new SentariPipeline();
     Object.assign(pipeline, newPipeline);
     res.json({ message: 'Pipeline reset successfully' });
-});
-
-app.post('/api/reload-model', async (req, res) => {
-    try {
-        await pipeline.reloadOllamaModel();
-        res.json({ message: 'Ollama model reloaded successfully' });
-    } catch (error) {
-        res.status(500).json({ error: 'Failed to reload model' });
-    }
-});
-
-app.get('/api/status', (req, res) => {
-    const status = pipeline.getPipelineStatus();
-    res.json(status);
-});
-
-app.post('/api/reset-and-reload', async (req, res) => {
-    try {
-        pipeline.reset();
-        await pipeline.reloadOllamaModel();
-        res.json({ message: 'Pipeline reset and model reloaded successfully' });
-    } catch (error) {
-        res.status(500).json({ error: 'Failed to reset and reload' });
-    }
 });
 
 // Serve the HTML UI
@@ -366,7 +341,17 @@ app.get('/', (req, res) => {
                     
                     <details style="margin-top: 20px;">
                         <summary style="cursor: pointer; font-weight: 600;">View Full Profile</summary>
-                        <pre style="background: #f8f9ff; padding: 15px; border-radius: 6px; margin-top: 10px; overflow-x: auto; font-size: 0.85em;">\${JSON.stringify(result.updated_profile, null, 2)}</pre>
+                        <div style="background: #f8f9ff; padding: 20px; border-radius: 8px; font-size: 0.9em;">
+                            <ul style="list-style-type: none; padding-left: 0; line-height: 1.6;">
+                                <li><strong>Dominant Vibe:</strong> \${result.updated_profile.dominant_vibe || 'N/A'}</li>
+                                <li><strong>Top Themes:</strong> \${result.updated_profile.top_themes.join(', ') || 'N/A'}</li>
+                                <li><strong>Trait Pool:</strong> \${result.updated_profile.trait_pool.join(', ') || 'N/A'}</li>
+                                <li><strong>Emotional Shifts:</strong> \${result.updated_profile.emotion_shifts?.join(', ') || 'None'}</li>
+                                <li><strong>Core Values:</strong> \${result.updated_profile.core_values?.join(', ') || 'N/A'}</li>
+                                <li><strong>Growth Areas:</strong> \${result.updated_profile.growth_areas?.join(', ') || 'N/A'}</li>
+                                <li><strong>Last Updated:</strong> \${new Date(result.updated_profile.last_updated).toLocaleString() || 'N/A'}</li>
+                            </ul>
+                        </div>
                     </details>
                 </div>
             \`;
@@ -383,11 +368,7 @@ app.listen(port, () => {
     console.log(`- Web UI: http://localhost:${port}`);
     console.log(`- API: POST /api/process`);
     console.log(`- Profile: GET /api/profile`);
-    console.log(`- Status: GET /api/status`);
-    console.log(`- Reset: POST /api/reset`);
-    console.log(`- Reload Model: POST /api/reload-model`);
-    console.log(`- Reset & Reload: POST /api/reset-and-reload`);
     console.log(`\nTo run simulations:`);
     console.log(`- npm run simulate:first`);
     console.log(`- npm run simulate:hundred\n`);
-});
+}); 
