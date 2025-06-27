@@ -320,7 +320,7 @@ app.get('/', (req, res) => {
                         <h3 style="color: #e53e3e;">Error</h3>
                         <p>\${error.message}</p>
                     </div>
-                \`;
+                \`; 
             }
         }
         
