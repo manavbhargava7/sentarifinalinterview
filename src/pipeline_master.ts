@@ -50,7 +50,7 @@ export class SentariPipeline {
         const meta_data = step05_metaExtract(raw_text);
 
         // Step 06: PARSE_ENTRY
-        const parsed = step06_parseEntry(raw_text);
+        const parsed = await step06_parseEntry(raw_text);
 
         // Step 07: CARRY_IN
         const carry_in_result = step07_carryIn(embedding, parsed.theme, recent_entries);
